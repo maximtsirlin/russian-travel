@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+    font-weight: bold;
+  }
+  
+  /* это не совсем по БЭМ, но в учебном проекте допустимо.
+  В реальных условиях пишите margin: 0; внутри блоков */
+  
+  h1, h2, h3, h4, h5, h6, p, li {
+    margin: 0;
+  }
+  
+  body {
+    background-color: #2A2C2F;
+  }
+  
+  .page {
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Inter';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .header {
+    background-color: #2A2C2F;
+  }
+
+  .logo_place_header {
+    position: absolute;
+    width: 176px;
+    height: 52px;
+    top: 30px;
+    left: 64px;
+    align-items:
+  }
+  
+  .header__container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  
+/* cover */
+  .cover {
+    min-height: calc(60vh - 60px);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 161px 0 98px;
+  }
+  
+  .cover__container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .cover__title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.15;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .cover__subtitle {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 34px;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+
+  .cover__train {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.15;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+  .cover__capation {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 34px;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  
+/* travel */
+
+    .travel {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .travel__title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.15;
+    margin-top: 0;
+    margin-bottom: 50px;
+    }
+
+    .travel__quote {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        width: 790px;
+        margin-top: 0;
+        margin-bottom: 36px;   
+    }
+
+    .travel__time-zones {
+        list-style-type: none;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+
+    .travel__time-zone {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        text-decoration: none;
+        color: white;
+        transition: 1s linear;
+    }
+    
+
+    /* column */
+
+.content__columns {
+  display: grid;
+  grid-gap: 10px;
+  height: 100vh;
+  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  
+}
+
+.content__column-image {
+  width: 300px;
+
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.content__column-image_hero_laika {
+    background-image: url(https://pictures.s3.yandex.net/frontend-developer/responsive/laika.png);
+}
+
+  
+  
+  @media screen and (max-width: 425px) {
+       .content__columns {
+          flex-direction: column;
+      }
+      .content__column {
+          width: 100%;
+          margin-bottom: 60px;
+      }
+    
+        .cover__title {
+          font-size: 4rem;
+      }
+    
+      .cover__subtitle {
+          font-size: 0.8rem;
+      }
+    
+  }
+  
+  @media screen and (max-width: 812px) and (max-height: 425px) {
+  .content__column {
+      width: 100%; 
+      margin-bottom: 60px; 
+      display: flex; 
+      justify-content: space-between;
+      align-items: flex-start; 
+  }
+  
+  .content__column-image {
+      width: 30%; 
+      padding-bottom: 30%;
+  }
+  
+  .column__description {
+      width: calc(70% - 40px); 
+  }
+  
+  .content__column-title {
+      margin-top: 0;
+      font-size: 1.5em;
+      margin-bottom: 18px;
+  }
+  .column__quote {
+      font-size: 0.9em;
+  }
+  
+  .column__quote-cite {
+      font-size: 0.7em;
+      line-height: 1.5;
+  }
+  
+  .share {
+      margin-top: 18px;
+  }
+  
+  .share__text {
+      font-size: 1em;
+  }} 
