@@ -1,80 +1,427 @@
+
+
 @font-face {
-    font-family: 'Inter';
-    src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
-    font-weight: normal;
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
-    font-weight: bold;
-  }
-  
-  /* это не совсем по БЭМ, но в учебном проекте допустимо.
-  В реальных условиях пишите margin: 0; внутри блоков */
-  
-  h1, h2, h3, h4, h5, h6, p, li {
-    margin: 0;
-  }
-  
-  body {
-    background-color: #2A2C2F;
-  }
-  
-  .page {
-    max-width: 1440px;
-    margin: auto;
-    font-family: 'Inter';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
-  }
-  
-  .header {
-    background-color: #2A2C2F;
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  font-weight: bold;
+}
+
+/* это не совсем по БЭМ, но в учебном проекте допустимо.
+В реальных условиях пишите margin: 0; внутри блоков */
+
+h1, h2, h3, h4, h5, h6, p, li {
+  margin: 0;
+}
+
+body {
+  background-color: #2A2C2F;
+}
+
+.page {
+  max-width: 1440px;
+  margin: auto;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+/* header */
+
+
+.header__container {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+.logo_place_header {
+  max-width: 176px;
+  max-height: 52px;
+}
+
+
+.header__link {
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #ffffff;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+/* cover */
+.cover {
+  max-width: auto;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 56px 0 98px;
+}
+
+.cover__container {
+
+}
+
+.cover__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  max-width: 720px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cover__subtitle {
+  font-size: 30px;
+  font-style: normal;
+  line-height: 36px;
+  text-align: center;
+  max-width: 640px;
+  display: flex;
+  margin: 20px auto 0px;
+  justify-content: space-around;
+}
+
+
+.cover__train {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.15;
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.cover__capation {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 34px;
+  text-align: center;
+  width: 60%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+/* travel */
+
+  .travel {
+      width: 80%;
+      margin: 0 auto;
   }
 
-  .logo_place_header {
-    position: absolute;
-    width: 176px;
-    height: 52px;
-    top: 30px;
-    left: 64px;
-    align-items:
+  .travel__title {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.15;
+  margin-top: 0;
+  margin-bottom: 50px;
+  }
+
+  .travel__quote {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 34px;
+      margin-top: 0;
+      margin-bottom: 36px;   
+  }
+
+  .travel__time-zones {
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+      margin-top: 20px;
+      margin-bottom: 16px;
+  }
+
+  .travel__time-zone {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 30px;
+      text-decoration: none;
+      color: white;
+      transition: 1s linear;
   }
   
-  .header__container {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    height: 60px;
-  }
+
+  /* column */
+
+.content__columns {
+display: grid;
+grid-gap: 10px;
+height: 100vh;
+grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+
+}
+
+.content__column-image {
+width: 300px;
+
+padding-bottom: 100%;
+background-size: cover;
+background-position: center;
+}
+
+.content__column-image_hero_laika {
+  background-image: url(https://pictures.s3.yandex.net/frontend-developer/responsive/laika.png);
+}
+
+
+  /* cards */
+
   
-/* cover */
-  .cover {
-    min-height: calc(60vh - 60px);
-    background-size: cover;
-    background-position: center;
+
+  .cards {
+    max-width: 1184px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    /* justify-items: center; */
+    justify-content: center;
+  }
+
+   /* column */
+
+
+  .place {
+    max-width: 984px;
+    margin: 0 auto;
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 92px;
+  }
+
+  .place__kosa {
+    padding-top: 48px;
+  }
+
+  .__url-heading {
+    padding-top: 110px;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 20.4px;
+  }
+
+  .place__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
     color: #ffffff;
-    box-sizing: border-box;
-    padding: 161px 0 98px;
+    /* text-align: center; */
+    /* width: 60%; */
+    /* display: flex; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* justify-content: center; */
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+
+.place__paragraph {
+  padding-top: 48px;
+}
+ 
+
+
+  /* cover */
+
+
+
+.feynman {
+  width: 100%;
+  min-height: 740px;
+  background-image: url(/images/__background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+
+.feynman__title {
+  font-weight: 600;
+  line-height: 76px;
+  font-size: 72px;
+  text-align: center;
+  max-width: 648px;
+  padding-top: 196px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 70px;
+  line-height: 51px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+  /* footer */
+
+  .footer__columns {
+    max-width: 984px;
+    margin: 0 auto;
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 92px;
   }
+
+
+
+
+
+
+
+  /* trying resizes with media */
+
+  @media (min-width: 320px) {
+    .cards { 
+      grid-template-columns: repeat(1, 288px); 
+    }
   
-  .cover__container {
-    width: 90%;
-    margin: auto;
+    .__item {
+      max-width: 288px;
+     }
+    .place {
+      grid-template-columns: 320px; 
+    }
+
+    .logo_place_header {
+      max-width: 142px;
+      max-height: 42px;
+    }
+
+    
+
+    .cover__title {
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 44px;
+      text-align: center;
+      max-width: 288px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+
+    .cover__subtitle {
+      font-size: 16px;
+      font-style: normal;
+      line-height: 20px;
+      text-align: center;
+      max-width: 288px;
+      display: flex;
+      margin: 16px auto 0px;
+      justify-content: space-around;
+    }
+    
+   
+
+    .cover__train {
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 1.15;
+      max-width: 320px;
+      text-align: center;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 64px;
+    }
+    
+}
+
+
+
+
+  
+  @media (min-width: 768px) {
+    .cards {
+       grid-template-columns: repeat(2, 352px); 
+      }
+  
+
+  .__item {
+    max-width: 352px;
+   }
+
+   .place {
+    grid-template-columns: 348px 352px; 
   }
-  
+
+  .place__kosa {
+    max-width: 348px;
+  }
+ 
+  .logo_place_header {
+    max-width: 176px;
+    max-height: 52px;
+  }
+
+
+
+
+
   .cover__title {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 1.15;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
     text-align: center;
-    width: 60%;
+    max-width: 720px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -82,172 +429,179 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  
-  .cover__subtitle {
-    font-size: 24px;
-    font-style: normal;
-    line-height: 34px;
-    text-align: center;
-    width: 60%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 0;
-  }
 
+
+  .cover__subtitle {
+    font-size: 30px;
+    font-style: normal;
+    line-height: 36px;
+    text-align: center;
+    max-width: 640px;
+    display: flex;
+    margin: 32px auto 0px;
+    justify-content: space-around;
+  }
+  
 
   .cover__train {
     font-weight: 600;
     font-size: 60px;
     line-height: 1.15;
     text-align: center;
-    width: 60%;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
     margin-top: 0;
     margin-bottom: 0;
+    max-width: 984px;
+    padding-top: 64px;
   }
-
-
-  .cover__capation {
-    font-size: 24px;
-    font-style: normal;
-    line-height: 34px;
-    text-align: center;
-    width: 60%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: flex-start;
-    margin-top: 20px;
-    margin-bottom: 0;
-  }
-  
-/* travel */
-
-    .travel {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .travel__title {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 1.15;
-    margin-top: 0;
-    margin-bottom: 50px;
-    }
-
-    .travel__quote {
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 34px;
-        width: 790px;
-        margin-top: 0;
-        margin-bottom: 36px;   
-    }
-
-    .travel__time-zones {
-        list-style-type: none;
-        margin-left: 0;
-        padding-left: 0;
-        margin-top: 20px;
-        margin-bottom: 16px;
-    }
-
-    .travel__time-zone {
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 30px;
-        text-decoration: none;
-        color: white;
-        transition: 1s linear;
-    }
-    
-
-    /* columcn */
-
-.content__columns {
-  display: grid;
-  grid-gap: 10px;
-  height: 100vh;
-  grid-template-columns: repeat(auto-fill, minmax(100px, auto));
   
 }
 
-.content__column-image {
-  width: 300px;
 
-  padding-bottom: 100%;
-  background-size: cover;
-  background-position: center;
-}
 
-.content__column-image_hero_laika {
-    background-image: url(https://pictures.s3.yandex.net/frontend-developer/responsive/laika.png);
-}
 
-  
-  
-  @media screen and (max-width: 425px) {
-       .content__columns {
-          flex-direction: column;
-      }
-      .content__column {
-          width: 100%;
-          margin-bottom: 60px;
-      }
-    
-        .cover__title {
-          font-size: 4rem;
-      }
-    
-      .cover__subtitle {
-          font-size: 0.8rem;
-      }
-    
-  }
-  
-  @media screen and (max-width: 812px) and (max-height: 425px) {
-  .content__column {
-      width: 100%; 
-      margin-bottom: 60px; 
-      display: flex; 
-      justify-content: space-between;
-      align-items: flex-start; 
-  }
-  
-  .content__column-image {
-      width: 30%; 
-      padding-bottom: 30%;
-  }
-  
-  .column__description {
-      width: calc(70% - 40px); 
-  }
-  
-  .content__column-title {
+  @media (min-width: 1024px) {
+    .cards { grid-template-columns: repeat(3, 300px);
+      
+     }
+     .__item {
+      max-width: 300px;
+     }    
+
+     .place {
+      grid-template-columns: 440px 456px; 
+    }
+
+    .place__kosa {
+      max-width: 440px;
+    }
+
+    .logo_place_header {
+      max-width: 176px;
+      max-height: 52px;
+    }
+
+
+    .cover__title {
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 100px;
+      text-align: center;
+      max-width: 720px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
       margin-top: 0;
-      font-size: 1.5em;
-      margin-bottom: 18px;
-  }
-  .column__quote {
-      font-size: 0.9em;
-  }
-  
-  .column__quote-cite {
-      font-size: 0.7em;
-      line-height: 1.5;
-  }
-  
-  .share {
-      margin-top: 18px;
-  }
-  
-  .share__text {
-      font-size: 1em;
-  }} 
+      margin-bottom: 0;
+    }
+
+
+    .cover__subtitle {
+      font-size: 30px;
+      font-style: normal;
+      line-height: 36px;
+      text-align: center;
+      max-width: 640px;
+      display: flex;
+      margin: 32px auto 0px;
+      justify-content: space-around;
+    }
+
+
+    .cover__train {
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 1.15;
+      text-align: center;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
+      margin-top: 0;
+      margin-bottom: 0;
+      max-width: 984px;
+      padding-top: 64px;
+
+    }
+    
+
+}
+
+
+
+  @media (min-width: 1280px) {
+    .cards { 
+      grid-template-columns: repeat(4, 284px); 
+    }
+    .__item {
+     width: 284px;
+    }
+
+    .place {
+      grid-template-columns: 460px 484px; 
+    }
+
+    .place__kosa {
+      max-width: 460px;
+    }
+    .footer__columns {
+      grid-template-columns: 460px ; 
+
+    }
+
+    .logo_place_header {
+      max-width: 176px;
+      max-height: 52px;
+    }
+
+
+
+
+
+    .cover__title {
+      font-weight: 900;
+      font-size: 96px;
+      line-height: 100px;
+      text-align: center;
+      max-width: 720px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+
+    .cover__subtitle {
+      font-size: 30px;
+      font-style: normal;
+      line-height: 36px;
+      text-align: center;
+      max-width: 640px;
+      display: flex;
+      margin: 32px auto 0px;
+      justify-content: space-around;
+    }
+
+
+    .cover__train {
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 1.15;
+      text-align: center;
+      max-width: 984px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 64px;
+    }
+    
+  }   
