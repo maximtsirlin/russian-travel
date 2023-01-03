@@ -35,6 +35,13 @@ body {
 
 
 
+
+
+
+
+
+
+
 /* header */
 
 
@@ -71,29 +78,31 @@ body {
 
 
 
-
-
-/* cover */
-.cover {
-  max-width: auto;
-  background-size: cover;
-  background-position: center;
+/* lead */
+.lead {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* height: 100vh; */
+  /* min-height: 600px; */
+  /* max-height: 756px; */
+  overflow: hidden;
+  z-index: 1;
   color: #ffffff;
-  box-sizing: border-box;
-  padding: 56px 0 0;
 }
 
-.cover__container {
+.lead__container {
   width: 90%;
   margin: auto;
 }
 
-.cover__title {
+.lead__title {
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
   max-width: 720px;
+  padding-top: 56px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -102,19 +111,32 @@ body {
   margin-bottom: 0;
 }
 
-.cover__subtitle {
+.lead__subtitle {
   font-size: 30px;
   font-style: normal;
   line-height: 36px;
   text-align: center;
   max-width: 640px;
   display: flex;
-  margin: 20px auto 0px;
+  margin: 32px auto 0px;
   justify-content: space-around;
 }
 
+.lead__way {
+  z-index: 3;
+  top: 585px;
+  width: 938px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
 
-.cover__train {
+
+
+.lead__train {
   font-weight: 600;
   font-size: 60px;
   line-height: 1.15;
@@ -125,17 +147,19 @@ body {
   justify-content: space-around;
   margin-top: 0;
   margin-bottom: 0;
+  z-index: 1;
+  padding-top: 64px;
 }
 
 
-.cover__capation {
+.lead__capation {
   font-size: 10px;
   font-style: normal;
   line-height: 14px;
   letter-spacing: 1.5px;
   padding-top: 8px;
-  text-align: center;
-  max-width: 984px;
+  padding-left: 0;
+  max-width: 928px;
   display: flex;
   margin: 0px auto 0px;
   justify-content: flex-start;
@@ -297,7 +321,7 @@ body {
 
 
 
-/* cover */
+/* baikal */
 
 
 
@@ -310,6 +334,7 @@ body {
   position: relative;
   margin-top: 92px;
   color: #ffffff;
+  z-index: 1;
 
 }
 
@@ -337,6 +362,23 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
+  z-index: -1;
+}
+
+.baikal__overlay {
+  top: 0px;
+  /* width: 1184px; */
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  z-index: -2;
+  width: 1184px;
+  height: 740px;
+  background: black;
+  opacity: 30%;
 }
 
 
@@ -348,16 +390,26 @@ body {
   max-width: 1185px;
   margin: auto;
   display: flex;
-  height: 60px;
+  /* height: 60px; */
   justify-content: space-between;
   align-items: center;
   padding-top: 28px;
   align-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-top: 92px;
+  padding-bottom: 24px;
 }
 
+.footer__link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  padding-right: 18px;
 
+}
 
 
 /* trying resizes with media */
@@ -382,64 +434,11 @@ body {
 
 
 
-  .cover__title {
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 44px;
-    text-align: center;
-    max-width: 288px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-
-  .cover__subtitle {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 20px;
-    text-align: center;
-    max-width: 288px;
-    display: flex;
-    margin: 16px auto 0px;
-    justify-content: space-around;
-  }
 
 
 
-  .cover__train {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 1.15;
-
-    max-width: 320px;
-    text-align: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 40px;
-  }
 
 
-
-  .cover__capation {
-    font-size: 10px;
-    font-style: normal;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    padding-top: 8px;
-    padding-left: 16px;
-    max-width: 320px;
-    display: flex;
-    margin: 0px auto 0px;
-    justify-content: flex-start;
-  }
 
   .travel__kotainer {
     width: 320px;
@@ -480,62 +479,9 @@ body {
   }
 
 
-  .cover__title {
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-    max-width: 720px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-
-  .cover__subtitle {
-    font-size: 30px;
-    font-style: normal;
-    line-height: 36px;
-    text-align: center;
-    max-width: 640px;
-    display: flex;
-    margin: 32px auto 0px;
-    justify-content: space-around;
-  }
-
-
-  .cover__train {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 1.15;
-    text-align: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-width: 768px;
-    padding-top: 56px;
-  }
 
 
 
-  .cover__capation {
-    font-size: 10px;
-    font-style: normal;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    padding-top: 8px;
-    padding-left: 16px;
-    max-width: 768px;
-    display: flex;
-    margin: 0px auto 0px;
-    justify-content: flex-start;
-  }
 
 
 
@@ -568,62 +514,7 @@ body {
   }
 
 
-  .cover__title {
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-    max-width: 720px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 
-
-  .cover__subtitle {
-    font-size: 30px;
-    font-style: normal;
-    line-height: 36px;
-    text-align: center;
-    max-width: 640px;
-    display: flex;
-    margin: 32px auto 0px;
-    justify-content: space-around;
-  }
-
-
-  .cover__train {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 1.15;
-    text-align: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 56px;
-
-    max-width: 928px;
-  }
-
-
-  .cover__capation {
-    font-size: 10px;
-    font-style: normal;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    padding-top: 8px;
-    padding-left: 0;
-    max-width: 928px;
-    display: flex;
-    margin: 0px auto 0px;
-    justify-content: flex-start;
-  }
 
 
   .travel__quote {
@@ -672,62 +563,8 @@ body {
   }
 
 
-  .cover__title {
-    font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    text-align: center;
-    max-width: 720px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
 
 
-  .cover__subtitle {
-    font-size: 30px;
-    font-style: normal;
-    line-height: 36px;
-    text-align: center;
-    max-width: 640px;
-    display: flex;
-    margin: 32px auto 0px;
-    justify-content: space-around;
-  }
-
-
-  .cover__train {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 1.15;
-    text-align: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 64px;
-
-    max-width: 984px;
-
-  }
-
-  .cover__capation {
-    font-size: 10px;
-    font-style: normal;
-    line-height: 14px;
-    letter-spacing: 1.5px;
-    padding-top: 8px;
-    padding-left: 0;
-    max-width: 984px;
-    display: flex;
-    margin: 0px auto 0px;
-    justify-content: flex-start;
-  }
 
 
   .travel__quote {
