@@ -1,14 +1,4 @@
-@font-face {
-  font-family: 'Inter';
-  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
-  font-weight: normal;
-}
 
-@font-face {
-  font-family: 'Inter';
-  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
-  font-weight: bold;
-}
 
 /* это не совсем по БЭМ, но в учебном проекте допустимо.
 В реальных условиях пишите margin: 0; внутри блоков */
@@ -73,10 +63,12 @@ body {
   color: #ffffff;
   padding-left: 18px;
   text-decoration: none;
+  transition: 1s linear;
 }
 
-
-
+.header__link:hover {
+  text-decoration: underline;
+}
 
 /* lead */
 .lead {
@@ -212,12 +204,17 @@ body {
 }
 
 .travel__time-zone {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.travel__span-accent {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-
   text-decoration: none;
-
 
 }
 
@@ -264,17 +261,22 @@ body {
 
 .place {
   color: #ffffff;
-
   max-width: 984px;
   margin: 0 auto;
   display: grid;
   gap: 40px;
   justify-content: center;
   padding-top: 92px;
+  grid-template-columns: 460px 484px;
+
+ 
 }
 
+
+
+  
+
 .place__kosa {
-  padding-top: 48px;
 }
 
 .place__link {
@@ -282,17 +284,25 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
+
+
 .place__url {
-  padding-top: 110px;
+  padding-top: 30px;
   font-weight: 400;
   font-size: 12px;
   line-height: 20.4px;
   color: #AAAAAA;
-
 }
+
+
+.place__url_size  {
+  padding-top: 100px;
+}
+
+
 
 .place__title {
   font-weight: 900;
@@ -311,13 +321,15 @@ body {
 }
 
 .place__paragraph {
-  padding-top: 48px;
-
+  padding-bottom: 56px;
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
 }
 
+.place__paragraph:last-child {
+  padding-bottom: 0;
+}
 
 
 
@@ -379,6 +391,12 @@ body {
   height: 740px;
   background: black;
   opacity: 30%;
+  transition: 1s linear;
+}
+
+
+.baikal__overlay:hover {
+  opacity: 80%;
 }
 
 
@@ -412,6 +430,7 @@ body {
 }
 
 
+
 /* trying resizes with media */
 
 @media screen and (max-width: 425px) {
@@ -423,9 +442,6 @@ body {
     max-width: 288px;
   }
 
-  .place {
-    grid-template-columns: 320px;
-  }
 
   .logo_place_header {
     max-width: 142px;
@@ -465,13 +481,7 @@ body {
     max-width: 352px;
   }
 
-  .place {
-    grid-template-columns: 348px 352px;
-  }
 
-  .place__kosa {
-    max-width: 348px;
-  }
 
   .logo_place_header {
     max-width: 176px;
@@ -500,13 +510,7 @@ body {
     max-width: 300px;
   }
 
-  .place {
-    grid-template-columns: 440px 456px;
-  }
 
-  .place__kosa {
-    max-width: 440px;
-  }
 
   .logo_place_header {
     max-width: 176px;
@@ -544,13 +548,8 @@ body {
     width: 284px;
   }
 
-  .place {
-    grid-template-columns: 460px 484px;
-  }
 
-  .place__kosa {
-    max-width: 460px;
-  }
+
 
   .footer__columns {
     grid-template-columns: 460px;
