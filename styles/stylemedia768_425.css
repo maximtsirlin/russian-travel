@@ -1,0 +1,92 @@
+@media only screen and (max-width: 768px) and (min-width: 425px)  {
+  
+  .logo_place_header {
+    max-width: 176px;
+    max-height: 52px;
+}
+
+
+.lead__container {
+  width: 100%;
+  margin: auto;
+}
+
+  .lead__title {
+    font-size: 96px;
+  }
+
+
+  .lead__subtitle {
+    font-size: 30px;
+  }
+
+  .lead__train {
+    padding-top: 40px;
+    max-width: 100%;
+}
+
+.travel__title {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.travel__kotainer {
+  width: 100%;
+  margin: auto;
+  margin-left: 24px;
+}
+
+
+.travel__quote {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.cards {
+  padding-top: 64px;
+  grid-template-columns: repeat(2, 352px);
+}
+
+
+.place {
+  color: #ffffff;
+  max-width: 984px;
+  margin: 0 auto;
+  display: grid;
+  gap: 40px;
+  justify-content: center;
+  padding-top: 92px;
+  grid-template-columns: 340px 352px;
+
+
+  }
+
+.place__kosa {
+  width: 100%;
+  margin: auto;
+}
+
+.place__title {
+  font-size: 42px;
+  max-width: 340px;
+
+}
+
+.baikal__train {
+  width: 100%;
+  margin: auto;
+}
+
+.baikal__overlay {
+  width: 100%;
+  margin: auto;
+  max-height: 480px;
+  min-height: 200px;
+}
+
+
+
+}
