@@ -75,7 +75,7 @@
   }
 
 
-  .place {
+  .place__container {
     color: #ffffff;
     max-width: 984px;
     margin: 0 auto;
@@ -95,7 +95,6 @@
   .place__title {
     font-size: 42px;
     max-width: 340px;
-
   }
 
   .baikal__title {

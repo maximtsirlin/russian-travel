@@ -40,7 +40,7 @@
 
 
 
-.place {
+.place__container {
   color: #ffffff;
   max-width: 984px;
   margin: 0 auto;
@@ -49,7 +49,6 @@
   justify-content: center;
   padding-top: 92px;
   grid-template-columns: 440px 456px;
-
   }
 
 .place__kosa {

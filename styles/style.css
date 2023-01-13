@@ -26,7 +26,6 @@ body {
 
 
 .header__container {
-
   margin: auto;
   display: flex;
   height: 60px;
@@ -171,11 +170,9 @@ body {
   color: #ffffff;
 }
 
-.travel__kotainer {
+.travel__container {
   width: 984px;
   margin: 0 auto;
-
-
 }
 
 .travel__title {
@@ -216,7 +213,6 @@ body {
   font-size: 12px;
   line-height: 18px;
   text-decoration: none;
-
 }
 
 .travel__span-accent {
@@ -224,7 +220,6 @@ body {
   font-size: 12px;
   line-height: 18px;
   text-decoration: none;
-
 }
 
 
@@ -264,13 +259,12 @@ body {
   justify-content: center;
   padding-top: 92px;
   grid-template-columns: repeat(2, 352px 352px);
-
 }
 
 /* place */
 
 
-.place {
+.place__container {
   color: #ffffff;
   max-width: 984px;
   margin: 0 auto;
@@ -279,15 +273,9 @@ body {
   justify-content: center;
   padding-top: 92px;
   grid-template-columns: 460px 484px;
-
-
 }
 
 
-
-
-
-.place__kosa {}
 
 .place__link {
   line-height: 22px;
@@ -378,7 +366,6 @@ body {
   margin-bottom: 0;
   color: white;
   text-decoration: none;
-
 }
 
 .baikal__subtitle {
@@ -458,7 +445,6 @@ body {
   text-decoration: none;
   padding-right: 18px;
   display: inline-block;
-
 }
 
 

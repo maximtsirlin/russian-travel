@@ -1,3 +1,10 @@
+.travel__span-accent {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+  }
+
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {}
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {}

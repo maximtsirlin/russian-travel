@@ -1,7 +1,28 @@
+.logo_place_header {
+    max-width: 176px;
+    max-height: 52px;
+}
+
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {}
 
-@media only screen and (max-width: 1024px) and (min-width: 768px) {}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .logo_place_header {
+        max-width: 176px;
+        max-height: 52px;
+    }
+    
+}
 
-@media only screen and (max-width: 768px) and (min-width: 425px) {}
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    .logo_place_header {
+        max-width: 176px;
+        max-height: 52px;
+    }
+}
 
-@media only screen and (max-width: 425px) {}
+@media only screen and (max-width: 425px) {
+    .logo_place_header {
+        width: 142px;
+        height: 42px;
+    }
+}

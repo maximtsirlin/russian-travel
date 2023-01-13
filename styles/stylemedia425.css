@@ -90,7 +90,6 @@
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-
   }
 
 
@@ -101,7 +100,7 @@
     text-decoration: none;
   }
 
-  .place {
+  .place__container {
     width: 320px;
     display: grid;
     grid-template-columns: 320px;
@@ -177,11 +176,9 @@
 
   .baikal__subtitle {
     max-width: 256px;
-
     font-size: 14px;
     line-height: 16px;
     padding-top: 33px;
-
   }
 
   .footer {
@@ -192,8 +189,6 @@
   .footer__columns {
     list-style-type: none;
     padding-top: 88px;
-
-
   }
 
   .footer__link {
