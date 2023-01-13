@@ -26,7 +26,7 @@
 
 
 
-.travel__kotainer {
+.travel__container {
   width: 100%;
   margin: auto;
 }
@@ -67,8 +67,6 @@
 .baikal__overlay {
   width: 100%;
   margin: auto;
-  max-height: 480px;
-  min-height: 200px;
 }
 
 

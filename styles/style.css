@@ -350,16 +350,20 @@ body {
 .baikal {
   width: 100%;
   min-height: 62.5vw;
-
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   margin-top: 92px;
   color: #ffffff;
   z-index: 1;
-
 }
 
+.baikal__link {
+  color: white;
+  text-decoration: none;
+  max-width: 100%;
+  cursor: pointer;
+}
 
 .baikal__title {
   font-weight: 900;
@@ -372,6 +376,9 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
+  color: white;
+  text-decoration: none;
+
 }
 
 .baikal__subtitle {
@@ -415,6 +422,8 @@ body {
   background: black;
   opacity: 30%;
   transition: 1s linear;
+  text-decoration: none;
+  color: white;
 }
 
 
