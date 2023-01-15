@@ -1,13 +1,15 @@
 .travel__title {
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 58px;
-    padding-top: 92px;
-    padding-left: 0;
-    max-width: 984px;
-    display: flex;
-    justify-content: flex-start;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
+  padding-top: 92px;
+  padding-left: 0;
+  max-width: 984px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
   }
 
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {
