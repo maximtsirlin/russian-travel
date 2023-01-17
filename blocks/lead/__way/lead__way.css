@@ -1,6 +1,6 @@
 
 .lead__way {
-  background-image: url(/images/__way.png);
+  background-image: url(../../../images/__way.png);
   background-repeat: no-repeat;
   aspect-ratio: 8 / 5;
   text-align: center;

@@ -1,22 +1,22 @@
 .cards {
-    max-width: 1184px;
+    max-width: 171.8vw;
     margin: 0 auto;
     display: grid;
-    gap: 1rem;
-    /* justify-items: center; */
     justify-content: center;
     padding-top: 92px;
-    grid-template-columns: repeat(2, 352px 352px);
+    grid-template-columns: repeat(2, 17.2vw 17.2vw);
+    gap: 1rem;
   }
 
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {
-
+  
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     .cards {
         padding-top: 64px;
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(3, 29vw);
+        gap: 1rem;
       }
 }
 
@@ -26,6 +26,7 @@
         max-width: 100%;
         padding-top: 88px;
         grid-template-columns: repeat(2, 45.8vw);
+        gap: 1rem;
       }
     
 }
@@ -38,5 +39,6 @@
         margin-right: auto;
         margin-top: 0;
         margin-bottom: 0;
+        gap: 1rem;
       }
 }

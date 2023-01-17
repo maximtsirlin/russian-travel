@@ -3,14 +3,22 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
+  width: 29.3vw;
+  margin: 0 auto;
 }
 
 .places__paragraph:last-child {
   padding-bottom: 0;
 }
+
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {}
 
-@media only screen and (max-width: 1024px) and (min-width: 768px) {}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .places__paragraph {
+    margin: 0 auto;
+    width: 46.3vw;
+  }
+}
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .places__paragraph {
@@ -19,8 +27,10 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .places__paragraph {
-        padding-bottom: 25px;
-        margin: 0 auto;
-      }
+  .places__paragraph {
+    padding-bottom: 25px;
+    margin: 0 auto;
+    width: 73.6vw;
+
+  }
 }

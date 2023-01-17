@@ -20,6 +20,9 @@
 @import url(../blocks/travel/__time-zones/travel__time-zones.css);
 @import url(../blocks/travel/__time-zone/travel__time-zone.css);
 @import url(../blocks/travel/__span-accent/travel__span-accent.css);
+@import url(../blocks/travel/__item/place__item.css);
+@import url(../blocks/travel/__item/place__item1.css);
+
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
