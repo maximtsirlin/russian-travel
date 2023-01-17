@@ -1,20 +1,40 @@
 
 .lead__way {
-    z-index: 3;
-    top: 585px;
-    width: 938px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0px;
-    right: 0px;
-    text-align: center;
+  background-image: url(/images/__way.png);
+  background-repeat: no-repeat;
+  aspect-ratio: 8 / 5;
+  text-align: center;
+  background-position: 50% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+  
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .lead__way {
+    background-size: 100%;
+
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+  .lead__way {
+    background-size: 100%;
+
+}
+}
+
+@media only screen and (max-width: 425px) {
+  .lead__way {
+    background-size: 100%;
+
+}
   }
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
-
-@media only screen and (max-width: 1024px) and (min-width: 768px) {}
-
-@media only screen and (max-width: 768px) and (min-width: 425px) {}
-
-@media only screen and (max-width: 425px) {}

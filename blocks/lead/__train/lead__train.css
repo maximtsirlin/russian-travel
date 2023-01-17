@@ -1,42 +1,40 @@
-
 .lead__train {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 1.15;
-    text-align: center;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    margin-top: 0;
-    margin-bottom: 0;
-    z-index: 1;
-    padding-top: 64px;
-  }
+  background-image: url(/images/kalegin-michail-179870-unsplash.png);
+  background-repeat: no-repeat;
+  aspect-ratio: 8 / 5;
+  text-align: center;
+  background-position: 50% 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+  .lead__train {
+    background-size: 100%;
+  }
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    .lead__train {
-        padding-top: 40px;
-        max-width: 100%;
-    }
+  .lead__train {
+    background-size: 100%;
+    padding-top: 56px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
-    .lead__train {
-        padding-top: 40px;
-        max-width: 100%;
-      }
+  .lead__train {
+    background-size: 100%;
+    padding-top: 56px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .lead__train {
-        padding-top: 40px;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
+  .lead__train {
+    padding-top: 40px;
+    background-size: 100%;
+  }
+
 }

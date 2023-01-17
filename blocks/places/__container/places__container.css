@@ -1,4 +1,4 @@
-.place__container {
+.places__container {
     color: #ffffff;
     max-width: 984px;
     margin: 0 auto;
@@ -14,7 +14,7 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    .place__container {
+    .places__container {
         color: #ffffff;
         max-width: 984px;
         margin: 0 auto;
@@ -27,7 +27,7 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
-    .place__container {
+    .places__container {
         color: #ffffff;
         max-width: 984px;
         margin: 0 auto;
@@ -41,7 +41,7 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .place__container {
+    .places__container {
         width: 320px;
         display: grid;
         grid-template-columns: 320px;

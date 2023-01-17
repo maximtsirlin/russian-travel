@@ -10,33 +10,37 @@
   justify-content: flex-start;
   margin-top: 0;
   margin-bottom: 0;
-  }
-
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {
-  
 }
 
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
+
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    
+  .travel__title {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 88px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
-    .travel__title {
-        max-width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-      }
+  .travel__title {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 88px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .travel__title {
-        font-size: 32px;
-        line-height: 35px;
-        padding-top: 64px;
-        max-width: 288px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
+  .travel__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 64px;
+    max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }

@@ -9,6 +9,8 @@
     justify-content: flex-start;
     width: 769px;
     margin-top: 0;
+    margin: 0 0;
+
   }
 
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {
@@ -18,6 +20,8 @@
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     .travel__quote {
         max-width: 100%;
+        margin-bottom: 0;
+
       }
       
 }
@@ -27,11 +31,13 @@
         max-width: 93.9vw;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 0;
       }
     }
 
 @media only screen and (max-width: 425px) {
     .travel__quote {
         max-width: 288px;
+        margin: 0 auto;
       } 
 }

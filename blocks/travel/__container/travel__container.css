@@ -10,8 +10,9 @@
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     .travel__container {
-        width: 100%;
-        margin: auto;
+      width: 100%;
+      margin-left: 48px;
+      margin-right: 48px;
       }
 }
 

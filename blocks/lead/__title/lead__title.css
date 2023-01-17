@@ -29,6 +29,7 @@
     .lead__title {
         font-size: 12.5vw;
         line-height: 1.04em;
+        padding-top: 48px;
     }
 }
 

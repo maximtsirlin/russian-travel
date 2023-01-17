@@ -17,11 +17,16 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    
+  .header__container {
+      
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
     .header__container {
+      
         margin-left: 24px;
         margin-right: 24px;
       }
