@@ -1,7 +1,6 @@
 @import url(../blocks/root/root.css);
-@import url(../blocks/root/root.css);
-
 @import url(../fonts/fonts.css);
+@import url(../styles/normalize.css);
 
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/logo_place_header.css);
