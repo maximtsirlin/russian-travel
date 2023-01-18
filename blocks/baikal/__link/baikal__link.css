@@ -1,19 +1,20 @@
 .baikal__link {
-    text-decoration: none;
-   display: block;
-    cursor: pointer;
-    background: rgba(42, 44, 47, 0.3);
-    padding: 247px 90px 242px 90px;
-    color: white;
-  }
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  background: rgba(42, 44, 47, 0.3);
+  padding: 13vw 5.4vw 41vw 8vw;
+  color: white;
+  background-position: 50% 100%;
+}
 
-  .baikal__link:hover {
-   
-    cursor: pointer;
-    background: rgba(42, 44, 47, 0.8);
-    transition: 1s linear;
+.baikal__link:hover {
 
-  }
+  cursor: pointer;
+  background: rgba(42, 44, 47, 0.8);
+  transition: 1s linear;
+
+}
 
 
 
@@ -28,14 +29,14 @@
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .baikal__link {
-    padding: 34px 90px 68px 90px;
+    padding: 16vw 0px 12.6vw 0px;
+    width: 100%;
 
   }
 }
 
 @media only screen and (max-width: 425px) {
   .baikal__link {
-    padding: 28px 90px 14px 79px;
-
+    padding: 34px 0px 35px 0px;
   }
 }

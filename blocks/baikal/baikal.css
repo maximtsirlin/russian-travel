@@ -8,6 +8,8 @@
   width: 92%;
   z-index: -2;
   padding-top: 92px;
+  background-size: 100%;
+  overflow: hidden;
   }
 
 
