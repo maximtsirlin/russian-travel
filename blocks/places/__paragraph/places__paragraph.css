@@ -17,6 +17,8 @@
   .places__paragraph {
     margin: 0 auto;
     width: 46.3vw;
+    font-size: 18px;
+    line-height: 29.34px;
   }
 }
 
@@ -24,6 +26,8 @@
   .places__paragraph {
     margin: 0 auto;
     width: 46.1vw;
+    font-size: 16px;
+    line-height: 26.08px;
   }
 }
 
@@ -32,6 +36,7 @@
     padding-bottom: 25px;
     margin: 0 auto;
     width: 73.6vw;
-
+    font-size: 16px;
+    line-height: 26.08px;
   }
 }
