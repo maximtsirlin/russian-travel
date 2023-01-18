@@ -13,5 +13,9 @@
 @media only screen and (max-width: 768px) and (min-width: 425px) {}
 
 @media only screen and (max-width: 425px) {
-    
+  .places__link {
+    width: 68.6vw;
+    margin: 0 auto;
+    padding-left: 66px;
+  }
 }

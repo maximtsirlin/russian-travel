@@ -18,6 +18,8 @@
 
 @media only screen and (max-width: 425px) {
   .places__url {
+    width: 68.6vw;
     margin: 0 auto;
+    padding-top: 4px;
   }
 }

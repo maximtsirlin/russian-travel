@@ -33,5 +33,7 @@
     .places__title {
         font-size: 32px;
         line-height: 35px;
+        width: 68.6vw;
+    margin: 0 auto;
       }
 }

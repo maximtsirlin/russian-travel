@@ -1,6 +1,6 @@
 .places__kosa {
   width: 27.9vw;
-  margin: auto;
+  margin: 0 auto;
 }
 
 
@@ -15,13 +15,15 @@
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
     .places__kosa {
-        width: 20.6vw;
-        margin: auto;
+      width: 44.5vw;
+      margin: 0 auto;
       }    
 }
 
 @media only screen and (max-width: 425px) {
     .places__kosa {
-      width: 89.6vw;
+      width: 100vw;
+      padding-top: 18px;
+      padding-bottom: 10px;
     }
 }
