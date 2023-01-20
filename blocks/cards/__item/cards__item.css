@@ -1,25 +1,21 @@
-
-    .cards__item {
-        max-width: 17.2vw;
-      }
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {
-
+.cards__item {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-    .cards__item {
-        max-width: 100%;
-      }
+  .cards__item {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
-    .cards__item {
-        max-width: 100%;
-      }
+  .cards__item {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .cards__item {
-        max-width: 288px;
-      }
+  .cards__item {
+    max-width: 288px;
+  }
 }

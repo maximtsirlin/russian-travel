@@ -14,9 +14,7 @@
     width: 27,9vw;
   
   }
-  
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .places__title {
@@ -29,14 +27,17 @@
     .places__title {
         font-size: 42px;
         max-width: 340px;
+        
       }
 }
 
 @media only screen and (max-width: 425px) {
     .places__title {
-        font-size: 32px;
-        line-height: 35px;
-        width: 68.6vw;
-    margin: 0 auto;
+      font-size: 32px;
+      line-height: 35px;
+      /* width: 88.6vw; */
+      margin: 0 auto;
+      margin-left: 16px;
+      margin-right: 16px;
       }
 }

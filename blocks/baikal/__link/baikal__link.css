@@ -3,7 +3,7 @@
   display: block;
   cursor: pointer;
   background: rgba(42, 44, 47, 0.3);
-  padding: 13vw 5.4vw 41vw 8vw;
+  min-height: 740px;
   color: white;
   background-position: 50% 100%;
 }
@@ -17,19 +17,15 @@
 }
 
 
-
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
-
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .baikal__link {
-    padding: 70px 74px -10px 93px;
+   
 
   }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .baikal__link {
-    padding: 16vw 0px 12.6vw 0px;
     width: 100%;
 
   }
@@ -37,6 +33,6 @@
 
 @media only screen and (max-width: 425px) {
   .baikal__link {
-    padding: 34px 0px 35px 0px;
+
   }
 }

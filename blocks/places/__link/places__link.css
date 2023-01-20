@@ -6,16 +6,13 @@
     text-decoration: underline;
   }
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
-
-@media only screen and (max-width: 1024px) and (min-width: 768px) {}
-
-@media only screen and (max-width: 768px) and (min-width: 425px) {}
-
 @media only screen and (max-width: 425px) {
   .places__link {
     width: 68.6vw;
     margin: 0 auto;
-    padding-left: 66px;
-  }
+    /* padding-left: 66px; */
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 33px;
 }
+  }

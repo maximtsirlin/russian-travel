@@ -1,5 +1,5 @@
 .baikal {
-  background-image: url(../../../images/__background.png);
+  background-image: url(../../images/__background.png); 
   background-repeat: no-repeat;
   aspect-ratio: 8 / 5;
   text-align: center;
@@ -13,25 +13,25 @@
   }
 
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
-
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-  .lead__train {
-    background-size: 100%;
-    padding-top: 56px;
-  }
+  .baikal {
+ 
+    width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .baikal {
     background-size: 100%;
-    padding-top: 56px;
+    padding-top: 88px;
+    width: 100%;
     }
 }
 
 @media only screen and (max-width: 425px) {
     .baikal {
-      padding-top: 40px;
+      padding-top: 63px;
       background-size: 100%;
-      }
+  }
+      
 }

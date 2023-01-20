@@ -9,23 +9,24 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-top: 92px;
+    padding-top: 84px;
     padding-bottom: 24px;
   }
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .footer__columns {
-    padding-top: 64px;
+    padding-top: 80px;
     margin: 0 auto;
+    margin-left: 48px;
+    margin-right: 48px;
     max-width: 955px;
   }    
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .footer__columns {
-    padding-top: 64px;
+    padding-top: 85px;
     margin: 0 auto;
     max-width: 720px;
   }    
@@ -34,9 +35,9 @@
 
 @media only screen and (max-width: 425px) {
   .footer__columns {
-    padding-top: 64px;
+    padding-top: px;
+    padding-left: 15px;
   }    
   
- 
 
 }

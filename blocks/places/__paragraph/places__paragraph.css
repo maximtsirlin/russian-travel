@@ -1,17 +1,18 @@
 .places__paragraph {
-  padding-bottom: 56px;
+  padding-bottom: 24px;
   font-weight: 400;
   font-size: 18px;
   line-height: 29.34px;
-  width: 29.3vw;
-  margin: 0 auto;
+  width: 35.3vw;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 .places__paragraph:last-child {
   padding-bottom: 0;
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {}
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .places__paragraph {
@@ -28,15 +29,22 @@
     width: 46.1vw;
     font-size: 16px;
     line-height: 26.08px;
+    padding-bottom: 25px
   }
 }
 
 @media only screen and (max-width: 425px) {
   .places__paragraph {
-    padding-bottom: 25px;
-    margin: 0 auto;
-    width: 73.6vw;
+    padding-bottom: 0;
+    /* margin: 0 auto; */
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 89.6vw;
     font-size: 16px;
     line-height: 26.08px;
-  }
+    /* padding-top: 8px; */
+    padding-bottom: 26px;
+    max-width: 288px;
+}
+  
 }

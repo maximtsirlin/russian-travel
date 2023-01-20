@@ -1,27 +1,22 @@
-# Проект: Путешествие по России
+
+█▀█ █░█ █▀ █▀ █ ▄▀█ █▄░█   ▀█▀ █▀█ ▄▀█ █░█ █▀▀ █░░
+█▀▄ █▄█ ▄█ ▄█ █ █▀█ █░▀█   ░█░ █▀▄ █▀█ ▀▄▀ ██▄ █▄▄
+
+This is adaptive page about travel in Russia on trains. You can read about places such us Kurshkaya kosa, Kolsky peninsula, Altay, beautiful snow lake Baikal and Karelia. It will be a long trip through 11 cities. Enjoy your trip! (•◡•) 
 
 
-TO DO*
+I used basic technologies this is html/css, also I added nested BEM metodology and media queries. All blocks with flex containers.
 
+List with technology:
+Html;
+Css;
+Flex-box;
+BEM Nested;
+Git & GitHub;
+Grid;
+Figma;
+Media queries
+API;
+Simple css animation;
 
-### Обзор
-* Интро
-* Figma
-* Картинки
-
-**Интро**
-
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
-
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-**Картинки**
-
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+* [Link to layout in Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
