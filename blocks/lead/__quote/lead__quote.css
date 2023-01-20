@@ -1,18 +1,18 @@
 .lead__quote {
-    font-size: 10px;
-    line-height: 14px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    padding-top: 8px;
-    max-width: 984px;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    TEXT-TRANSFORM: UPPERCASE
-  }
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  padding-top: 8px;
+  max-width: 984px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  TEXT-TRANSFORM: UPPERCASE;
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .lead__quote {
@@ -23,19 +23,19 @@
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
-    .lead__quote {
-        margin-left: 24px;
-        margin-right: 24px;
-      }
+  .lead__quote {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-    .lead__quote {
-        max-width: 288px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-    
+  .lead__quote {
+    max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
 }
