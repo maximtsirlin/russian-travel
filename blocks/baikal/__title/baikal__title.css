@@ -27,7 +27,7 @@
         line-height: 1.04em;
         max-width: 554px;
         padding-top: 117px;
-      }
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -39,5 +39,3 @@
     }
 }
 
-
-/* Методом проб и ошибок сделал как смог, надеюсь это похоже на правду*/

@@ -2,33 +2,33 @@
     width: 984px;
     margin: 0 auto;
     color: #ffffff;
-  }
-  
-  
-  @media only screen and (max-width: 1024px) and (min-width: 768px) {
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
     .travel {
-      width: 90%;
-      margin-left: 48px;
-      margin-right: 48px;
+        width: 90%;
+        margin-left: 48px;
+        margin-right: 48px;
     }
-  }
-  
-  @media only screen and (max-width: 768px) and (min-width: 425px) {
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
     .travel {
-      width: 93%;
-      margin-left: 24px;
-      margin-right: 24px;
+        width: 93%;
+        margin-left: 24px;
+        margin-right: 24px;
     }
-  }
-  
-  @media only screen and (max-width: 425px) {
+}
+
+@media only screen and (max-width: 425px) {
     .travel {
-      font-size: 40px;
-      line-height: 44px;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0;
-      margin-bottom: 0;
+        font-size: 40px;
+        line-height: 44px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
     }
-  }
+}
