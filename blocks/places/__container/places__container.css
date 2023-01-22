@@ -30,7 +30,7 @@
   }
 
 }
-
+ /* Я не понимаю как это правильно реализовать без модификаторов потому что нижний блок начинает съезжать, что я делаю не так? https://disk.yandex.ru/i/Wkt5OHANG5_MDA*/
 @media only screen and (max-width: 425px) {
   .places__container {
     grid-template-columns: 320px;
