@@ -1,13 +1,14 @@
 
-█▀█ █░█ █▀ █▀ █ ▄▀█ █▄░█   ▀█▀ █▀█ ▄▀█ █░█ █▀▀ █░░
-█▀▄ █▄█ ▄█ ▄█ █ █▀█ █░▀█   ░█░ █▀▄ █▀█ ▀▄▀ ██▄ █▄▄
+Путешествия по России
 
-This is adaptive page about travel in Russia on trains. You can read about places such us Kurshkaya kosa, Kolsky peninsula, Altay, beautiful snow lake Baikal and Karelia. It will be a long trip through 11 cities. Enjoy your trip! (•◡•) 
+Это адаптивная страница о путешествии по России на поездах. О таких местах, как Куршская коса, Кольский полуостров, Алтай, красивое снежное озеро Байкал и Карелия, вы можете прочитать здесь. Это будет путешествие по 11 городам. Наслаждайтесь вашим путешествием! (•◡•)
 
 
-I used basic technologies this is html/css, also I added nested BEM metodology and media queries. All blocks with flex containers.
+Я использовал базовые технологии, это html/css, также я добавил вложенную методологию БЭМ и медиа-запросы. Все блоки с флекс контейнерами.
 
-List with technology:
+
+Технологии использовались: 
+
 Html;
 Css;
 Flex-box;
@@ -20,3 +21,4 @@ API;
 Simple css animation;
 
 * [Link to layout in Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+

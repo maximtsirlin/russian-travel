@@ -4,7 +4,15 @@
   font-weight: 400;
   color: #ffffff;
   text-decoration: underline;
+  opacity: 1;
+  transition: 1s linear;
 }
+
+
+.places__link:hover {
+  opacity: 0.8;
+}
+
 
 @media only screen and (max-width: 425px) {
   .places__link {
@@ -15,4 +23,12 @@
     margin-right: 16px;
     line-height: 33px;
   }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+
+  .places__link {
+      /* и тут не получилось разобраться, я довольно долго ломал голову как можно реализовать эти отступы, подскажите что делать в такой ситуации какие значения испольщовать? */
+  }
+
 }

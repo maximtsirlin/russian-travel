@@ -7,7 +7,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__link/header__link.css);
 
-@import url(../blocks/underline/underline.css);
+@import url(../blocks/header/_underline/header__link_underline.css);
 
 
 @import url(../blocks/lead/lead.css);
