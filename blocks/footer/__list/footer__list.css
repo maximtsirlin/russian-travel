@@ -1,16 +1,16 @@
 .footer__list {
     list-style-type: none;
     padding-left: 0;
+    display: flex;
+    align-content: flex-start;
 }
 
-ul.footer__list li {
-    display: inline-block;
-    margin-left: 0;
-}
 
 @media only screen and (max-width: 425px) {
     .footer__list {
         max-width: 150px;
+        display: inline-block;
+        margin-left: 0;
     }
 
 }

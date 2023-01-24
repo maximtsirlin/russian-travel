@@ -5,6 +5,7 @@
   line-height: 20.4px;
   color: #AAAAAA;
   margin: 0 auto;
+  letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
@@ -14,7 +15,6 @@
 @media only screen and (max-width: 425px) {
   .places__url {
     width: 68.6vw;
-    margin: 0 auto;
     padding-top: 0;
     margin-left: 16px;
     margin-right: 16px;

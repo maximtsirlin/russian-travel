@@ -3,19 +3,6 @@
     max-height: 52px;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
-    .header__logo {
-        max-width: 176px;
-        max-height: 52px;
-    }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 425px) {
-    .header__logo {
-        max-width: 176px;
-        max-height: 52px;
-    }
-}
 
 @media only screen and (max-width: 425px) {
     .header__logo {

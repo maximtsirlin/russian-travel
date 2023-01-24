@@ -10,13 +10,15 @@
     margin-bottom: 0;
     color: white;
     text-decoration: none;
-    padding-top: 245px;
+    min-height: 30vw;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     .baikal__title {
-        padding-top: 195px;
+        min-height: 34.5vw;
         max-width: 560px;
     }
 }
@@ -26,7 +28,7 @@
         font-size: 9.3vw;
         line-height: 1.04em;
         max-width: 554px;
-        padding-top: 117px;
+        min-height: 34.3vw;
     }
 }
 
@@ -35,7 +37,7 @@
         max-width: 270px;
         line-height: 32px;
         font-size: 35px;
-        padding-top: 35px;
+        min-height: 31.5vw;
     }
 }
 

@@ -4,12 +4,3 @@
     line-height: 18px;
     text-decoration: none;
 }
-
-@media only screen and (max-width: 425px) {
-    .travel__time-zone {
-        font-weight: bold;
-        font-size: 12px;
-        line-height: 18px;
-        text-decoration: none;
-    }
-}

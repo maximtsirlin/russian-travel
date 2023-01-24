@@ -32,10 +32,6 @@
 @media only screen and (max-width: 425px) {
   .lead__quote {
     max-width: 288px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
 }

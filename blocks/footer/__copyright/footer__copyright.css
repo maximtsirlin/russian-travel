@@ -2,15 +2,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-}
-
-
-@media only screen and (max-width: 425px) {
-  .footer__copyright {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: auto;
-
-  }
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }

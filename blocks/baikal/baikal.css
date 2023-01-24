@@ -21,7 +21,6 @@
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .baikal {
-    background-size: 100%;
     padding-top: 88px;
     width: 100%;
   }
@@ -30,7 +29,6 @@
 @media only screen and (max-width: 425px) {
   .baikal {
     padding-top: 63px;
-    background-size: 100%;
     width: 100%;
   }
 

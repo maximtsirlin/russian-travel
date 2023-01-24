@@ -7,14 +7,12 @@
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .places__image {
     width: 100%;
-    margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   .places__image {
     width: 44.5vw;
-    margin: 0 auto;
   }
 }
 
