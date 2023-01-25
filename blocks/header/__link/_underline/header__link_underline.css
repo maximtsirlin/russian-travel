@@ -1,6 +1,6 @@
 
 
-.header__link_underline:checked {
+.header__link_underline {
     text-decoration: underline;
 }
 
