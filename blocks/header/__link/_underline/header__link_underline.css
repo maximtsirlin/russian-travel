@@ -5,10 +5,6 @@
 }
 
 
-  /* Иван, подскажите пожалуйста как это можно реализовать я не понимаю :( */
-
-
-
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {

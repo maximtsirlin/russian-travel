@@ -1,118 +1,35 @@
 .places__container {
   color: #ffffff;
-  max-width: 75vw;
-  margin: 0 auto;
   display: grid;
   gap: 48px 40px;
-  justify-content: center;
-  grid-template-columns: 460px 484px;
-  padding-top: 96px;
-}
-
-.places__container:nth-child(1) {
-  padding-top: 97px;
-
-}
-
-.places__container:nth-child(2) {
-  padding-top: 79px;
+  grid-template-columns: 460fr 484fr
 }
 
 
 
+@media only screen and (max-width: 1024px) {
 
-
-
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
   .places__container {
-    max-width: 400px;
-    grid-template-columns: 42.6vw 44.3vw;
-    gap: 47px 34px;
-    padding-top: 85px;
+    grid-template-columns: 440fr 456fr;
+    gap: 48px 32px;
   }
-
-  .places__container:nth-child(1) {
-    padding-top: 97px;
-  }
-
-  .places__container:nth-child(2) {
-    padding-top: 87px;
-  }
-
-
 
 }
 
-@media only screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 768px) {
   .places__container {
-    grid-template-columns: 44.5vw 46.1vw;
-    gap: 44px 25px;
-    max-width: 720px;
-    padding-top: 71px;
-  }
+    grid-template-columns: 340fr 352fr;
+    gap: 48px 28px;
 
-  .places__container:nth-child(1) {
-    padding-top: 92px;
-
-  }
-
-  .places__container:nth-child(2) {
-    padding-top: 74px;
-  }
-
-  .places__container:nth-child(3) {
-    gap: 50px 25px;
-  }
-
-  .places__container:nth-child(4) {
-
-  }
-
-  .places__container:nth-child(5) {
-    gap: 22px 25px;
-  }
-
-  .places__container:nth-child(1) .places__title {
-    letter-spacing: 2px;
-  }
-
-  .places__title:nth-child(2) {
-    letter-spacing: 0;
-  }
-
-  .places__container:nth-child(1) .places__url {
-    padding-top: 38px;
-  }
-
-  .places__container:nth-child(2) .places__url {
-    padding-top: 0;
-  }
-
-  .places__container:nth-child(3) .places__url {
-    padding-top: 0;
   }
 }
+
 
 @media only screen and (max-width: 425px) {
   .places__container {
-    grid-template-columns: 320px;
-    gap: 29px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 49px;
+    grid-template-columns: 1fr;
+    gap: 32px;
   }
-
-
-  .places__container:nth-child(1) {
-    padding-top: 62px;
-  }
-
-  .places__container:nth-child(2) {
-    padding-top: 50px;
-  }
-
 
 
 }
