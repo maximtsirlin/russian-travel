@@ -5,22 +5,3 @@
   color: #ffffff;
   text-decoration: underline;
 }
-
-
-@media only screen and (max-width: 425px) {
-  .places__link {
-    width: 68.6vw;
-    margin: 0 auto;
-    /* padding-left: 66px; */
-    margin-left: 16px;
-    margin-right: 16px;
-    line-height: 33px;
-  }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 425px) {
-
-  .places__link {
-  }
-
-}

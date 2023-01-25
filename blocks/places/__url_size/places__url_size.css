@@ -1,9 +1,0 @@
-.places__url_size {
-  padding-top: 100px;
-}
-
-@media only screen and (max-width: 425px) {
-  .places__url {
-    padding-top: 0;
-  }
-}

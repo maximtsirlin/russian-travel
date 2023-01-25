@@ -3,18 +3,16 @@
   font-size: 12px;
   line-height: 20.4px;
   color: #AAAAAA;
-  margin: 0 auto;
+  margin: 0 0 5px;
   letter-spacing: 2px;
-  margin-bottom: 12px;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
   
 }
+
 @media only screen and (max-width: 425px) {
   .places__url {
     width: 68.6vw;
-    margin-left: 16px;
-    margin-right: 16px;
   }
 }
