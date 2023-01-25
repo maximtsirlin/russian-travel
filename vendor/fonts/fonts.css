@@ -3,8 +3,8 @@
     font-style:  normal;
     font-weight: 900;
     font-display: swap;
-    src: url("./Inter-Bold.woff2") format("woff2"),
-         url("./Inter-Black.woff") format("woff");
+    src: url("./Inter-Black.woff") format("woff2"),
+         url("./Inter-Black.woff2") format("woff");
   }
 
   @font-face {
@@ -24,5 +24,3 @@
     src: url("./Inter-Bold.woff2") format("woff2"),
          url("./Inter-Bold.woff") format("woff");
   }
-
-/* Не понимаю как правильно прописать тут путь */
