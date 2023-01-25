@@ -1,7 +1,7 @@
 .places__image {
   width: 100%;
-  aspect-ratio: 1 / 1; 
-  display: block
+  aspect-ratio: 1 / 1;
+  display: block;
 }
 
 
@@ -11,5 +11,4 @@
     width: calc(100% + 32px);
     justify-self: center;
   }
-
 }
