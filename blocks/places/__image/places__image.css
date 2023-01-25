@@ -3,3 +3,13 @@
   aspect-ratio: 1 / 1; 
   display: block
 }
+
+
+  
+@media screen and (max-width: 600px) {
+  .places__image {
+    width: calc(100% + 32px);
+    justify-self: center;
+  }
+
+}
