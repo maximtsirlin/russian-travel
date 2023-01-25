@@ -1,8 +1,9 @@
+
 .places__container {
   color: #ffffff;
   display: grid;
   gap: 48px 40px;
-  grid-template-columns: 460fr 484fr
+  grid-template-columns: 460fr 484fr;
 }
 
 
