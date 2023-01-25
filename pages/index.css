@@ -2,13 +2,11 @@
 @import url(../blocks/root/root.css);
 @import url(../vendor/fonts/fonts.css);
 
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__link/header__link.css);
 
-@import url(../blocks/header/_underline/header__link_underline.css);
-
+@import url(../blocks/header/__link/_underline/header__link_underline.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__container/lead__container.css);
@@ -24,16 +22,15 @@
 @import url(../blocks/travel/__time-zones/travel__time-zones.css);
 @import url(../blocks/travel/__time-zone/travel__time-zone.css);
 @import url(../blocks/travel/__span-accent/travel__span-accent.css);
-@import url(../blocks/travel/__item/place__item.css);
-@import url(../blocks/travel/__item/place__item1.css);
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 
+
+@import url(../blocks/places/__website/places__website.css);
 @import url(../blocks/places/__container/places__container.css);
 @import url(../blocks/places/__container/places__container_theme.css);
 @import url(../blocks/places/__title/places__title.css);
-@import url(../blocks/places/__title/places__title_theme.css);
 @import url(../blocks/places/__url_size/places__url_size.css);
 @import url(../blocks/places/__url/places__url.css);
 @import url(../blocks/places/__link/places__link.css);
@@ -45,7 +42,6 @@
 @import url(../blocks/baikal/__title/baikal__title.css);
 @import url(../blocks/baikal/__subtitle/baikal__subtitle.css);
 @import url(../blocks/baikal/__train/baikal__train.css);
-@import url(../blocks/baikal/__overlay/baikal__overlay.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
