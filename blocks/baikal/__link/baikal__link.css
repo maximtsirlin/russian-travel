@@ -1,9 +1,7 @@
 .baikal__link {
   text-decoration: none;
-  display: block;
   cursor: pointer;
   background: rgba(42, 44, 47, 0.3);
-  min-height: 740px;
   color: white;
   background-position: 50% 100%;
   display: flex;
@@ -18,3 +16,4 @@
   background: rgba(42, 44, 47, 0.8);
   transition: 1s linear;
 }
+
