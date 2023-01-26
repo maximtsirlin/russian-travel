@@ -6,33 +6,15 @@
   min-height: 740px;
   color: white;
   background-position: 50% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
 }
 
-.baikal__link:hover {
 
+.baikal__link:hover {
   cursor: pointer;
   background: rgba(42, 44, 47, 0.8);
   transition: 1s linear;
-
-}
-
-
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
-  .baikal__link {
-   
-
-  }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 425px) {
-  .baikal__link {
-    width: 100%;
-
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .baikal__link {
-
-  }
 }
